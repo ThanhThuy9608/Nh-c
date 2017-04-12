@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Nhạc</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="im_music">Bai hát</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Album</string>
+
+    <string name="facebook_app_ip">245402662592303</string>
+</resources>

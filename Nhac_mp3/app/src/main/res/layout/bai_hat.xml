@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="com.example.thanhthuy.nhac_mp3.frangment.MusicFragment">
+
+
+    <ImageView
+        android:id="@+id/ivBai_hat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/musical"
+        />
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.26">
+        <TextView
+            android:id="@+id/titlebaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My love"
+            android:textColor="#040404"
+            android:textSize="15dip"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#343434"
+            android:textSize="15dip"
+            android:layout_marginTop="1dip"
+            android:text="........." />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="4:45"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"/>
+
+</LinearLayout>

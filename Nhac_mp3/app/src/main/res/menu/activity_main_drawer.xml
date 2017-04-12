@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_trangchu"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="Trang chủ" />
+
+    <group android:checkableBehavior="single">
+        <item android:title="Danh sách: ">
+            <menu>
+                <item
+                    android:id="@+id/nav_Music"
+                    android:icon="@drawable/music"
+                    android:title="My Music" />
+                <item
+                    android:id="@+id/nav_Album"
+                    android:icon="@drawable/disc"
+                    android:title="Album" />
+                <item
+                    android:id="@+id/nav_Uuthich"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Ưu thich" />
+                <item
+                    android:id="@+id/nav_CatNhac"
+                    android:icon="@drawable/ringdroidlogo"
+                    android:title="Cắt nhạc" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Công cụ">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Chia sẻ" />
+
+            <item
+                android:id="@+id/nav_caidat"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Cài đặt" />
+
+            <item
+                android:id="@+id/nav_close"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Đóng ứng dụng" />
+            <item
+                android:id="@+id/nav_lq"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Tải ứng dụng liên quan" />
+        </menu>
+    </item>
+
+</menu>
